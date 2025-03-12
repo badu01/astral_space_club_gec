@@ -1,0 +1,2 @@
+export const SUPABASE_URL = "https://rvpcfgdylplutrtuohdl.supabase.co";
+export const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2cGNmZ2R5bHBsdXRydHVvaGRsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNDE5NDUsImV4cCI6MjA1NTYxNzk0NX0.6RamPIxQyyEgSIaHXH5Txo-jD3r0PFa3mMGPOR3Wgdc";
