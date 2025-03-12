@@ -2,7 +2,7 @@ import BottomNav from "./components/NavBar/NavBar";
 import About from "./pages/About";
 import AllEvents from "./pages/Events";
 import Hero from "./pages/Hero";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Team from "./pages/Team";
 import SplashCursor from "./components/SplashCursor/SplashCursor";
 import EventList from "./pages/EventList";
