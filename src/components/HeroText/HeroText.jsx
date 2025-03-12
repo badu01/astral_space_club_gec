@@ -4,7 +4,7 @@ function HeroText() {
   return (
     <div className="relative flex w-fit items-center">
       <motion.img
-        src="/assets/astral_moon.svg"
+        src={`${import.meta.env.BASE_URL}astral_moon.svg`}
         alt="Astral Moon"
         className="absolute h-32 xl:left-[-5rem] -top-2 xl:h-60"
         initial={{

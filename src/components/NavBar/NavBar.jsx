@@ -8,7 +8,7 @@ function BottomNav() {
   return (
     <>
       <nav className={`hidden ${isHome ? "bg-transparent" : "bg-[#0B0B0B]"} ${page === '/404' || page ===  '/admin' || page === '/addevent' ? 'lg:hidden' : 'flex'} fixed bottom-0 left-0 w-full border-t border-t-gray-400/50 text-white p-4 md:flex justify-between items-center md:justify-between px-10 py-2 gap-10 font-space z-50`}>
-        <img src="/assets/space_club_logo.png" className="h-14"  alt="space club logo" />
+        <img src={`${import.meta.env.BASE_URL}space_club_logo.png`} className="h-14"  alt="space club logo" />
         <div className="flex gap-12">
 
         <NavLink to="/" className="nav-item">
