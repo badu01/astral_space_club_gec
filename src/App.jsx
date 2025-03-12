@@ -14,6 +14,7 @@ import UpdateEvent from "./admin/updateEvent";
 
 const validEventTypes = ["all", "ongoing", "upcoming"];
 
+
 function App() {
   return (
     <Router>
