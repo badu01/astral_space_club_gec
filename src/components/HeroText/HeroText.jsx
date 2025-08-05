@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 function HeroText() {
   return (
-    <div className="relative flex w-fit items-center">
+    <div className="relative flex w-fit items-center z-50">
       <motion.img
-        src={`${import.meta.env.BASE_URL}astral_moon.svg`}
+        src={'/public/assets/astral_moon.svg'}
         alt="Astral Moon"
         className="absolute h-32 xl:left-[-5rem] -top-2 xl:h-60"
         initial={{
