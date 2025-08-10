@@ -19,8 +19,8 @@ function BottomNav() {
         } left-1/2 transform -translate-x-1/2 fixed border-t border-t-gray-400/50 text-white p-4 md:flex justify-between items-center md:justify-between px-10 py-2 gap-60 font-space z-50 transition-all duration-300`}
       >
         <img
-          src={`${import.meta.env.BASE_URL}space_club_logo.png`}
-          className="h-14"
+          src={`assets/space_club_logo.png`}
+          className="h-12"
           alt="space club logo"
         />
         <div className="flex gap-12">

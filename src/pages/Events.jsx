@@ -5,7 +5,7 @@ function AllEvents() {
   return (
     <section
       id="events"
-      className="h-screen w-screen bg-[#0B0B0B] text-white font-space overflow-hidden"
+      className="h-full w-screen bg-[#0B0B0B] text-white font-space overflow-hidden"
     >
       <div className="flex flex-row justify-between">
         <div className="flex w-16 pb-24 justify-center items-end lg:justify-end lg:p-14 lg:pb-20 border-r border-gray-400/50 lg:max-w-3xl lg:w-3xl h-screen">
@@ -28,7 +28,7 @@ function AllEvents() {
               ease: easeInOut,
             }}
             className="bg-gray-600 w-full h-full bg-cover bg-center p-10 lg:pb-20 flex flex-col justify-between"
-            style={{ backgroundImage: "url(/assets/event_bg_1.jpg)" }}
+            style={{ backgroundImage: "url(assets/event_bg_1.jpg)" }}
           >
             <Link to="/events/all" className="h-full flex flex-col justify-between">
               <h1 className="text-2xl font-medium">all</h1>
@@ -54,7 +54,7 @@ function AllEvents() {
               ease: easeInOut,
             }}
             className="bg-gray-600 w-full h-full bg-cover bg-center p-10 lg:pb-20 flex flex-col justify-between"
-            style={{ backgroundImage: "url(/assets/event_bg_2.jpg)" }}
+            style={{ backgroundImage: "url(assets/event_bg_2.jpg)" }}
           >
             <Link to="/events/upcoming" className="h-full flex flex-col justify-between">
               <h1 className="text-2xl font-medium">upcoming</h1>
@@ -80,7 +80,7 @@ function AllEvents() {
               ease: easeInOut,
             }}
             className="bg-gray-600 w-full h-full bg-cover bg-center p-10 lg:pb-20 flex flex-col justify-between"
-            style={{ backgroundImage: "url(/assets/event_bg_3.jpg)" }}
+            style={{ backgroundImage: "url(assets/event_bg_3.jpg)" }}
           >
             <Link to="/events/ongoing" className="h-full flex flex-col justify-between">
               <h1 className="text-2xl font-medium">ongoing</h1>
