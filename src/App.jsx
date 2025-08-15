@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 import AddEvent from "./admin/AddEvent";
 import AdminPage from "./admin/AdminPage";
 import UpdateEvent from "./admin/updateEvent";
-//import RoundCursor from "./components/RoundCursor/RoundCursor";
+// import RoundCursor from "./components/RoundCursor/RoundCursor";
 
 const validEventTypes = ["all", "ongoing", "upcoming"];
 
